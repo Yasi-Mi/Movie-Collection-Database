@@ -1,0 +1,45 @@
+﻿<!-- Collector QUERY -->
+@model IEnumerable<MovieDatabase.Domain.Collector>
+@{
+    ViewBag.Title = "Collector Query";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>
+    Collectors:</h1>
+@Html.ActionLink("Add New", "Create", "Collector")
+<table>
+    <tr class="headers">
+        <td>
+            First Name
+        </td>
+        <td>
+            Last Name
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    @{
+        if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName
+                    </td>
+                    <td>@item.LastName
+                    </td>
+                    <td>@Html.ActionLink("Edit", "Edit", "Collector", new {@id = item.Id}, null)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Collector", FormMethod.Post, null))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", item.Id)
+                            <input type="submit" value="Delete" />
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>

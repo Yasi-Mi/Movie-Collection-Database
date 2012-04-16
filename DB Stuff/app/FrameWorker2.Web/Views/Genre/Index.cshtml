@@ -1,0 +1,40 @@
+﻿<!-- Genre QUERY -->
+@model IEnumerable<MovieDatabase.Domain.Genre>
+@{
+    ViewBag.Title = "Genre Query";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>
+    Genres:</h1>
+@Html.ActionLink("Add New", "Create", "Genre")
+<table>
+    <tr class="headers">
+        <td>
+            Name
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    @{
+        if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name
+                    </td>
+                    <td>@Html.ActionLink("Edit", "Edit", "Genre", new {@id = item.Id}, null)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Genre", FormMethod.Post, null))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", item.Id)
+                            <input type="submit" value="Delete" />
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>

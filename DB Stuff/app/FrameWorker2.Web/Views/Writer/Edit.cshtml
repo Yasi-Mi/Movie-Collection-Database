@@ -1,0 +1,34 @@
+﻿<!-- Writer EDIT -->
+
+@model MovieDatabase.Tasks.ViewModels.EditWriterViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create/Edit Writer</h2>
+
+@using (Html.BeginForm("Edit", "Writer"))
+ {
+     <fieldset>
+        <legend>Writer</legend>
+        <table>
+             <tr>
+                 <td>Id</td>
+                 <td>First Name</td>
+                 <td>Last Name</td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>@Model.Writer.Id</td>
+                 <td>@Html.EditorFor(m => m.Writer.FirstName)</td>
+                 <td>@Html.EditorFor(m => m.Writer.LastName)</td>
+                 <td><input type="submit" value="Submit"/></td>
+             </tr>
+         @Html.AntiForgeryToken()
+         @Html.HiddenFor(m => m.Writer.Id)
+         </table>
+     </fieldset>
+
+ }

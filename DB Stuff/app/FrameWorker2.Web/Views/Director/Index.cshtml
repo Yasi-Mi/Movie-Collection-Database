@@ -1,0 +1,45 @@
+﻿<!-- Director QUERY -->
+@model IEnumerable<MovieDatabase.Domain.Director>
+@{
+    ViewBag.Title = "Director Query";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>
+    Directors:</h1>
+@Html.ActionLink("Add New", "Create", "Director")
+<table>
+    <tr class="headers">
+        <td>
+            First Name
+        </td>
+        <td>
+            Last Name
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    @{
+        if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName
+                    </td>
+                    <td>@item.LastName
+                    </td>
+                    <td>@Html.ActionLink("Edit", "Edit", "Director", new {@id = item.Id}, null)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Director", FormMethod.Post, null))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", item.Id)
+                            <input type="submit" value="Delete" />
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>

@@ -1,0 +1,35 @@
+﻿@model MovieDatabase.Domain.Genre
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<h3>ID: @Model.Id</h3>
+<h3>Name: @Model.Name</h3>
+
+<h3>@Model.Name Movies</h3>
+<table>
+        <tr>
+            <td>Title</td>
+            <td></td>
+            <td></td>
+        </tr>
+        @foreach (var item in Model.Movies)
+        {
+            <tr>
+                <td>@Html.ActionLink(@item.Title, "Details", "Movie", new { @id = item.Id }, null)</td>
+                <td>@Html.ActionLink("Edit", "Edit", "Movie", new { @id = item.Id }, null)</td>
+                <td>
+                    @using (Html.BeginForm("Delete", "Movie", FormMethod.Post, null))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("id", item.Id)
+                        <input type="submit" value="Delete" />
+                    }
+                </td>
+            </tr>
+        }
+    </table>

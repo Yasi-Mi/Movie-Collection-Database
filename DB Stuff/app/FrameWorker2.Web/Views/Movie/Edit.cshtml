@@ -1,0 +1,48 @@
+﻿<!-- Movie EDIT -->
+
+@model MovieDatabase.Tasks.ViewModels.EditMovieViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create/Edit Movie</h2>
+
+@using (Html.BeginForm("Edit", "Movie"))
+ {
+     <fieldset>
+        <legend>Movie</legend>
+                 
+             
+             
+                 @Model.Movie.Id
+                 <span>Title</span>
+                 @Html.EditorFor(m => m.Movie.Title)
+                 <span>TagLine</span>
+                 @Html.EditorFor(m => m.Movie.TagLine)
+                 <span>Director(s)</span>
+                 <select name="Movie.Directors" multiple>
+                    @foreach (var Director in Model.AvailableDirectors) {
+                        <option value="@Director.Id" @(Model.Movie.Directors.Contains(Director) ? "selected=\"selected\"" : "")>@Director.FirstName @Director.LastName</option>
+                    }
+                 </select>
+                 <span>Writer(s)</span>
+                 <select name="Movie.Writers" multiple>
+                    @foreach (var Writer in Model.AvailableWriters) {
+                        <option value="@Writer.Id" @(Model.Movie.Writers.Contains(Writer) ? "selected=\"selected\"" : "")>@Writer.FirstName @Writer.LastName</option>
+                    }
+                 </select>
+                 <span>Genre(s)</span>
+                 <select name="Movie.Genres" multiple>
+                    @foreach (var Genre in Model.AvailableGenres) {
+                        <option value="@Genre.Id" @(Model.Movie.Genres.Contains(Genre) ? "selected=\"selected\"" : "")>@Genre.Name</option>
+                    }
+                 </select>
+                 <input type="submit" value="Submit"/>
+             
+         @Html.AntiForgeryToken()
+         @Html.HiddenFor(m => m.Movie.Id)
+     </fieldset>
+
+ }

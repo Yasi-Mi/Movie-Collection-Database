@@ -1,0 +1,39 @@
+﻿<!-- Writer QUERY -->
+@model IEnumerable<MovieDatabase.Domain.Writer>
+@{
+    ViewBag.Title = "Writer Query";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>
+    Writers:</h1>
+@Html.ActionLink("Add New", "Create", "Writer")
+<table>
+    <tr class="headers">
+        <td>
+            First Name
+        </td>
+        <td></td><td></td>
+    </tr>
+    @{
+        if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(@item.FirstName + " " + @item.LastName, "Details", "Writer");
+                    </td>
+                    <td>@Html.ActionLink("Edit", "Edit", "Writer", new {@id = item.Id}, null)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Writer", FormMethod.Post, null))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", item.Id)
+                            <input type="submit" value="Delete" />
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>

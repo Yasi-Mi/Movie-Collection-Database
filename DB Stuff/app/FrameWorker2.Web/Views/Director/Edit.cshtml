@@ -1,0 +1,34 @@
+﻿<!-- Director EDIT -->
+
+@model MovieDatabase.Tasks.ViewModels.EditDirectorViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create/Edit Director</h2>
+
+@using (Html.BeginForm("Edit", "Director"))
+ {
+     <fieldset>
+        <legend>Director</legend>
+        <table>
+             <tr>
+                 <td>Id</td>
+                 <td>First Name</td>
+                 <td>Last Name</td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>@Model.Director.Id</td>
+                 <td>@Html.EditorFor(m => m.Director.FirstName)</td>
+                 <td>@Html.EditorFor(m => m.Director.LastName)</td>
+                 <td><input type="submit" value="Submit"/></td>
+             </tr>
+         @Html.AntiForgeryToken()
+         @Html.HiddenFor(m => m.Director.Id)
+         </table>
+     </fieldset>
+
+ }

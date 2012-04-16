@@ -1,0 +1,33 @@
+﻿<!-- Genre EDIT -->
+
+@model MovieDatabase.Tasks.ViewModels.EditGenreViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create/Edit Genre</h2>
+
+@using (Html.BeginForm("Edit", "Genre"))
+ {
+     <fieldset>
+        <legend>Genre</legend>
+        <table>
+             <tr>
+                 <td>Id</td>
+                 <td>First Name</td>
+                 <td>Last Name</td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>@Model.Genre.Id</td>
+                 <td>@Html.EditorFor(m => m.Genre.Name)</td>
+                 <td><input type="submit" value="Submit"/></td>
+             </tr>
+         @Html.AntiForgeryToken()
+         @Html.HiddenFor(m => m.Genre.Id)
+         </table>
+     </fieldset>
+
+ }

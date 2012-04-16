@@ -1,0 +1,621 @@
+2012-04-06 23:20:04,282 [24] ?.lambda_method(:0) - NHibernate 3.2.0.4000 (3.2.0.4000)
+
+2012-04-06 23:20:04,297 [24] ?.lambda_method(:0) - hibernate-configuration section not found in application configuration file
+
+2012-04-06 23:20:04,297 [24] ?.lambda_method(:0) - Bytecode provider name : lcg
+
+2012-04-06 23:20:04,298 [24] ?.lambda_method(:0) - Using reflection optimizer
+
+2012-04-06 23:20:04,315 [24] ?.lambda_method(:0) - No mapped documents found in assembly: FrameWorker2.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+2012-04-06 23:20:04,520 [24] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-06 23:20:04,554 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.OrderItem -> OrderItems
+
+2012-04-06 23:20:04,598 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Frame -> Frames
+
+2012-04-06 23:20:04,611 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.StateProvince -> StateProvinces
+
+2012-04-06 23:20:04,612 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Edition -> Editions
+
+2012-04-06 23:20:04,612 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Vendor -> Vendors
+
+2012-04-06 23:20:04,614 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Artist -> Artists
+
+2012-04-06 23:20:04,614 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Artwork -> Artworks
+
+2012-04-06 23:20:04,615 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.CustomerType -> CustomerTypes
+
+2012-04-06 23:20:04,615 [24] ?.lambda_method(:0) - Mapping collection: FrameWorker2.Domain.CustomerType.Customers -> Customers_CustomerTypes
+
+2012-04-06 23:20:04,616 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Country -> Countries
+
+2012-04-06 23:20:04,616 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Address -> Addresses
+
+2012-04-06 23:20:04,617 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.LimitedEditionSerial -> LimitedEditionSerials
+
+2012-04-06 23:20:04,618 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Customer -> Customers
+
+2012-04-06 23:20:04,618 [24] ?.lambda_method(:0) - Mapping collection: FrameWorker2.Domain.Customer.CustomerTypes -> Customers_CustomerTypes
+
+2012-04-06 23:20:04,619 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Location -> Locations
+
+2012-04-06 23:20:04,619 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.SalesPerson -> SalesPeople
+
+2012-04-06 23:20:04,620 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Order -> Orders
+
+2012-04-06 23:20:04,620 [24] ?.lambda_method(:0) - Mapping class: FrameWorker2.Domain.Molding -> Moldings
+
+2012-04-06 23:20:04,627 [24] ?.lambda_method(:0) - checking mappings queue
+
+2012-04-06 23:20:04,627 [24] ?.lambda_method(:0) - processing one-to-many association mappings
+
+2012-04-06 23:20:04,630 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Frame.Editions -> Editions
+
+2012-04-06 23:20:04,634 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Edition.LimitedEditionSerials -> LimitedEditionSerials
+
+2012-04-06 23:20:04,634 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Artist.Artworks -> Artworks
+
+2012-04-06 23:20:04,634 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Artwork.Editions -> Editions
+
+2012-04-06 23:20:04,637 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Customer.Orders -> Orders
+
+2012-04-06 23:20:04,639 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Order.OrderItems -> OrderItems
+
+2012-04-06 23:20:04,639 [24] ?.lambda_method(:0) - mapping collection: FrameWorker2.Domain.Molding.Editions -> Editions
+
+2012-04-06 23:20:04,639 [24] ?.lambda_method(:0) - processing one-to-one association property references
+
+2012-04-06 23:20:04,639 [24] ?.lambda_method(:0) - processing foreign key constraints
+
+2012-04-06 23:20:04,643 [24] ?.lambda_method(:0) - processing filters (second pass)
+
+2012-04-06 23:20:04,662 [24] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-06 23:20:04,665 [24] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-06 23:20:04,681 [24] ?.lambda_method(:0) - Using dialect defined converter
+
+2012-04-06 23:20:04,682 [24] ?.lambda_method(:0) - Generate SQL with comments: disabled
+
+2012-04-06 23:20:04,683 [24] ?.lambda_method(:0) - Configuring ConnectionProvider
+
+2012-04-06 23:20:04,685 [24] ?.lambda_method(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+
+2012-04-06 23:20:04,685 [24] ?.lambda_method(:0) - Optimize cache for minimal puts: False
+
+2012-04-06 23:20:04,686 [24] ?.lambda_method(:0) - Connection release mode: auto
+
+2012-04-06 23:20:04,686 [24] ?.lambda_method(:0) - Default batch fetch size: 1
+
+2012-04-06 23:20:04,686 [24] ?.lambda_method(:0) - Statistics: disabled
+
+2012-04-06 23:20:04,686 [24] ?.lambda_method(:0) - Deleted entity synthetic identifier rollback: disabled
+
+2012-04-06 23:20:04,687 [24] ?.lambda_method(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+
+2012-04-06 23:20:04,689 [24] ?.lambda_method(:0) - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+
+2012-04-06 23:20:04,689 [24] ?.lambda_method(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2012-04-06 23:20:04,690 [24] ?.lambda_method(:0) - Order SQL inserts for batching: enabled
+
+2012-04-06 23:20:04,691 [24] ?.lambda_method(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2012-04-06 23:20:04,692 [24] ?.lambda_method(:0) - Default entity-mode: Poco
+
+2012-04-06 23:20:04,692 [24] ?.lambda_method(:0) - Named query checking : enabled
+
+2012-04-06 23:20:04,708 [24] ?.lambda_method(:0) - building session factory
+
+2012-04-06 23:20:04,936 [24] ?.lambda_method(:0) - no name configured
+
+2012-04-06 23:20:10,280 [4] ?.lambda_method(:0) - select order0_.Id as Id15_, order0_.CustomerFk as CustomerFk15_, order0_.SalespersonFk as Salesper3_15_, order0_.ShippingAddressFk as Shipping4_15_, order0_.BillingAddressFk as BillingA5_15_, order0_.LocationFk as LocationFk15_, order0_.DateOrdered as DateOrde7_15_, order0_.DatePromised as DateProm8_15_, order0_.DateFramed as DateFramed15_, order0_.DateCompleted as DateCom10_15_, order0_.DatePaidInFull as DatePai11_15_ from Orders order0_
+
+2012-04-06 23:20:10,412 [4] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:10,437 [4] ?.lambda_method(:0) - SELECT salesperso0_.Id as Id14_0_, salesperso0_.FirstName as FirstName14_0_, salesperso0_.LastName as LastName14_0_ FROM SalesPeople salesperso0_ WHERE salesperso0_.Id=@p0
+
+2012-04-06 23:20:10,441 [4] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:10,442 [4] ?.lambda_method(:0) - SELECT salesperso0_.Id as Id14_0_, salesperso0_.FirstName as FirstName14_0_, salesperso0_.LastName as LastName14_0_ FROM SalesPeople salesperso0_ WHERE salesperso0_.Id=@p0
+
+2012-04-06 23:20:10,455 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,460 [4] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,462 [4] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,462 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,462 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,462 [4] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,463 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:10,464 [4] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:10,465 [4] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:12,773 [27] ?.lambda_method(:0) - SELECT order0_.Id as Id15_0_, order0_.CustomerFk as CustomerFk15_0_, order0_.SalespersonFk as Salesper3_15_0_, order0_.ShippingAddressFk as Shipping4_15_0_, order0_.BillingAddressFk as BillingA5_15_0_, order0_.LocationFk as LocationFk15_0_, order0_.DateOrdered as DateOrde7_15_0_, order0_.DatePromised as DateProm8_15_0_, order0_.DateFramed as DateFramed15_0_, order0_.DateCompleted as DateCom10_15_0_, order0_.DatePaidInFull as DatePai11_15_0_ FROM Orders order0_ WHERE order0_.Id=@p0
+
+2012-04-06 23:20:12,846 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,848 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,849 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,849 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,851 [27] ?.lambda_method(:0) - select salesperso0_.Id as Id14_, salesperso0_.FirstName as FirstName14_, salesperso0_.LastName as LastName14_ from SalesPeople salesperso0_
+
+2012-04-06 23:20:12,856 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,856 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,857 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,857 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,858 [27] ?.lambda_method(:0) - select location0_.Id as Id13_, location0_.Name as Name13_ from Locations location0_
+
+2012-04-06 23:20:12,867 [27] ?.lambda_method(:0) - SELECT orderitems0_.OrderFk as OrderFk1_, orderitems0_.Id as Id1_, orderitems0_.Id as Id0_0_, orderitems0_.EditionFk as EditionFk0_0_, orderitems0_.OrderFk as OrderFk0_0_, orderitems0_.LimitedEditionSerialFk as LimitedE4_0_0_ FROM OrderItems orderitems0_ WHERE orderitems0_.OrderFk=@p0
+
+2012-04-06 23:20:12,893 [27] ?.lambda_method(:0) - SELECT edition0_.Id as Id3_0_, edition0_.Name as Name3_0_, edition0_.ArtworkFk as ArtworkFk3_0_, edition0_.BasePrice as BasePrice3_0_, edition0_.Limited as Limited3_0_ FROM Editions edition0_ WHERE edition0_.Id=@p0
+
+2012-04-06 23:20:12,906 [27] ?.lambda_method(:0) - SELECT artwork0_.Id as Id6_0_, artwork0_.Title as Title6_0_, artwork0_.ArtistFk as ArtistFk6_0_ FROM Artworks artwork0_ WHERE artwork0_.Id=@p0
+
+2012-04-06 23:20:12,924 [27] ?.lambda_method(:0) - SELECT edition0_.Id as Id3_0_, edition0_.Name as Name3_0_, edition0_.ArtworkFk as ArtworkFk3_0_, edition0_.BasePrice as BasePrice3_0_, edition0_.Limited as Limited3_0_ FROM Editions edition0_ WHERE edition0_.Id=@p0
+
+2012-04-06 23:20:12,926 [27] ?.lambda_method(:0) - SELECT artwork0_.Id as Id6_0_, artwork0_.Title as Title6_0_, artwork0_.ArtistFk as ArtistFk6_0_ FROM Artworks artwork0_ WHERE artwork0_.Id=@p0
+
+2012-04-06 23:20:12,931 [27] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:12,969 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,970 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,971 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,971 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,972 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,972 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,972 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,973 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,973 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,974 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,974 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,974 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,975 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,975 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,975 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,976 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,976 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,976 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,977 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,977 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,977 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,977 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,978 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,978 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,978 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:12,979 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:12,980 [27] ?.lambda_method(:0) - select stateprovi0_.Id as Id2_, stateprovi0_.Name as Name2_, stateprovi0_.Abbreviation as Abbrevia3_2_, stateprovi0_.Tax as Tax2_ from StateProvinces stateprovi0_
+
+2012-04-06 23:20:12,988 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,988 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,989 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:12,989 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:12,989 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,990 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,990 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,990 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:12,991 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,991 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,991 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,991 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,992 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,992 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,992 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,993 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,993 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,993 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,994 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:12,994 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:12,994 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,995 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,995 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:12,995 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:12,996 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:12,996 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:12,998 [27] ?.lambda_method(:0) - select country0_.Id as Id9_, country0_.Name as Name9_ from Countries country0_
+
+2012-04-06 23:20:13,003 [27] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:13,009 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,010 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,011 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,011 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,012 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,012 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,012 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,013 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,013 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,014 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,014 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,015 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,015 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,016 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,016 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,017 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,017 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,019 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,020 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,021 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,021 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,022 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,022 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,022 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,023 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,023 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,024 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,024 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,025 [27] ?.lambda_method(:0) - select stateprovi0_.Id as Id2_, stateprovi0_.Name as Name2_, stateprovi0_.Abbreviation as Abbrevia3_2_, stateprovi0_.Tax as Tax2_ from StateProvinces stateprovi0_
+
+2012-04-06 23:20:13,029 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,029 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,029 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,030 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,030 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,030 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,031 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,031 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,031 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,032 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,032 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,032 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,033 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,033 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,033 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,034 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,034 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,034 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,035 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,035 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,035 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,036 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,036 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,036 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,036 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,037 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,037 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,037 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,038 [27] ?.lambda_method(:0) - select country0_.Id as Id9_, country0_.Name as Name9_ from Countries country0_
+
+2012-04-06 23:20:13,043 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,043 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,043 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:13,043 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:13,043 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,044 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:13,045 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Artwork.Editions
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Artwork
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,046 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:13,047 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:21,517 [27] ?.lambda_method(:0) - SELECT customer0_.Id as Id12_0_, customer0_.ShippingAddressFk as Shipping2_12_0_, customer0_.BillingAddressFk as BillingA3_12_0_, customer0_.Phone1 as Phone4_12_0_, customer0_.Phone2 as Phone5_12_0_, customer0_.Fax as Fax12_0_, customer0_.Email as Email12_0_, customer0_.CustomerSince as Customer8_12_0_, customer0_.Note as Note12_0_ FROM Customers customer0_ WHERE customer0_.Id=@p0
+
+2012-04-06 23:20:21,604 [27] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:21,606 [27] ?.lambda_method(:0) - SELECT stateprovi0_.Id as Id2_0_, stateprovi0_.Name as Name2_0_, stateprovi0_.Abbreviation as Abbrevia3_2_0_, stateprovi0_.Tax as Tax2_0_ FROM StateProvinces stateprovi0_ WHERE stateprovi0_.Id=@p0
+
+2012-04-06 23:20:21,609 [27] ?.lambda_method(:0) - SELECT country0_.Id as Id9_0_, country0_.Name as Name9_0_ FROM Countries country0_ WHERE country0_.Id=@p0
+
+2012-04-06 23:20:21,610 [27] ?.lambda_method(:0) - SELECT address0_.Id as Id10_0_, address0_.FirstName as FirstName10_0_, address0_.LastName as LastName10_0_, address0_.AddressLine1 as AddressL4_10_0_, address0_.AddressLine2 as AddressL5_10_0_, address0_.City as City10_0_, address0_.Zip as Zip10_0_, address0_.StateProvinceFk as StatePro8_10_0_, address0_.CountryFk as CountryFk10_0_ FROM Addresses address0_ WHERE address0_.Id=@p0
+
+2012-04-06 23:20:21,612 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Customer
+
+2012-04-06 23:20:21,612 [27] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Customer.Orders
+
+2012-04-06 23:20:21,612 [27] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Customer.Orders
+
+2012-04-06 23:20:21,612 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Customer
+
+2012-04-06 23:20:21,612 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:21,613 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:21,613 [27] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:21,613 [27] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Address
+
+2012-04-06 23:20:25,014 [13] ?.lambda_method(:0) - SELECT salesperso0_.Id as Id14_0_, salesperso0_.FirstName as FirstName14_0_, salesperso0_.LastName as LastName14_0_ FROM SalesPeople salesperso0_ WHERE salesperso0_.Id=@p0
+
+2012-04-06 23:20:25,018 [13] ?.lambda_method(:0) - SELECT stateprovi0_.Id as Id2_0_, stateprovi0_.Name as Name2_0_, stateprovi0_.Abbreviation as Abbrevia3_2_0_, stateprovi0_.Tax as Tax2_0_ FROM StateProvinces stateprovi0_ WHERE stateprovi0_.Id=@p0
+
+2012-04-06 23:20:25,022 [13] ?.lambda_method(:0) - SELECT country0_.Id as Id9_0_, country0_.Name as Name9_0_ FROM Countries country0_ WHERE country0_.Id=@p0
+
+2012-04-06 23:20:25,026 [13] ?.lambda_method(:0) - SELECT location0_.Id as Id13_0_, location0_.Name as Name13_0_ FROM Locations location0_ WHERE location0_.Id=@p0
+
+2012-04-06 23:20:25,031 [13] ?.lambda_method(:0) - SELECT order0_.Id as Id15_0_, order0_.CustomerFk as CustomerFk15_0_, order0_.SalespersonFk as Salesper3_15_0_, order0_.ShippingAddressFk as Shipping4_15_0_, order0_.BillingAddressFk as BillingA5_15_0_, order0_.LocationFk as LocationFk15_0_, order0_.DateOrdered as DateOrde7_15_0_, order0_.DatePromised as DateProm8_15_0_, order0_.DateFramed as DateFramed15_0_, order0_.DateCompleted as DateCom10_15_0_, order0_.DatePaidInFull as DatePai11_15_0_ FROM Orders order0_ WHERE order0_.Id=@p0
+
+2012-04-06 23:20:25,033 [13] ?.lambda_method(:0) - SELECT customer0_.Id as Id12_0_, customer0_.ShippingAddressFk as Shipping2_12_0_, customer0_.BillingAddressFk as BillingA3_12_0_, customer0_.Phone1 as Phone4_12_0_, customer0_.Phone2 as Phone5_12_0_, customer0_.Fax as Fax12_0_, customer0_.Email as Email12_0_, customer0_.CustomerSince as Customer8_12_0_, customer0_.Note as Note12_0_ FROM Customers customer0_ WHERE customer0_.Id=@p0
+
+2012-04-06 23:20:25,034 [13] ?.lambda_method(:0) - SELECT edition0_.Id as Id3_0_, edition0_.Name as Name3_0_, edition0_.ArtworkFk as ArtworkFk3_0_, edition0_.BasePrice as BasePrice3_0_, edition0_.Limited as Limited3_0_ FROM Editions edition0_ WHERE edition0_.Id=@p0
+
+2012-04-06 23:20:25,035 [13] ?.lambda_method(:0) - SELECT edition0_.Id as Id3_0_, edition0_.Name as Name3_0_, edition0_.ArtworkFk as ArtworkFk3_0_, edition0_.BasePrice as BasePrice3_0_, edition0_.Limited as Limited3_0_ FROM Editions edition0_ WHERE edition0_.Id=@p0
+
+2012-04-06 23:20:25,039 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:25,039 [13] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:25,043 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,044 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,055 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,055 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,056 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,056 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,057 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,060 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.OrderItem
+
+2012-04-06 23:20:25,060 [13] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Order.OrderItems
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Order
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Customer
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Customer.Orders
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Customer.Orders
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Customer
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:25,061 [13] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: FrameWorker2.Domain.Edition.LimitedEditionSerials
+
+2012-04-06 23:20:25,062 [13] ?.lambda_method(:0) - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: FrameWorker2.Domain.Edition
+
+2012-04-06 23:20:25,127 [13] ?.lambda_method(:0) - Could not execute command: UPDATE OrderItems SET OrderFk = null WHERE OrderFk = @p0
+
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'OrderFk', table 'Frameworker2.dbo.OrderItems'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2012-04-06 23:20:25,146 [13] ?.lambda_method(:0) - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'OrderFk', table 'Frameworker2.dbo.OrderItems'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Remove(Object id, ISessionImplementor session)
+
+2012-04-06 23:20:25,146 [13] ?.lambda_method(:0) - Cannot insert the value NULL into column 'OrderFk', table 'Frameworker2.dbo.OrderItems'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+
+2012-04-06 23:20:25,155 [13] ?.lambda_method(:0) - Could not synchronize database state with session
+
+NHibernate.Exceptions.GenericADOException: could not delete collection: [FrameWorker2.Domain.Order.OrderItems#1][SQL: UPDATE OrderItems SET OrderFk = null WHERE OrderFk = @p0] ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'OrderFk', table 'Frameworker2.dbo.OrderItems'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Remove(Object id, ISessionImplementor session)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Collection.AbstractCollectionPersister.Remove(Object id, ISessionImplementor session)
+   at NHibernate.Action.CollectionRemoveAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)

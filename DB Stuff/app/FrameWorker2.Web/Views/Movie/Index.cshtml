@@ -1,0 +1,54 @@
+﻿<!-- Movie QUERY -->
+@model IEnumerable<MovieDatabase.Domain.Movie>
+@{
+    ViewBag.Title = "Movie Query";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>
+    Movies:</h1>
+@Html.ActionLink("Add New", "Create", "Movie")
+<table>
+    <tr class="headers">
+        <td>Title</td>
+        <td>TagLine</td>
+        <td>Director(s)</td>
+        <td>Writer(s)</td>
+        <td>Genre(s)</td>
+        <td></td>
+        <td></td>
+    </tr>
+    @{
+        if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title
+                    </td>
+                    <td>@item.TagLine
+                    </td>
+                    @if(item.Directors.Count > 0){
+                        <td>@foreach(var x in item.Directors){ @x.LastName<span>, </span>}</td>
+                    }
+                    @if(item.Writers.Count > 0){
+                        <td>@foreach (var x in item.Writers) {@x.LastName<span>, </span>}</td>
+                    }
+                    @if (item.Genres.Count > 0)
+                    {
+                        <td>@foreach (var x in item.Genres){@x.Name<span>, </span>}</td>
+                    }
+                    <td>@Html.ActionLink("Edit", "Edit", "Movie", new { @id = item.Id }, null)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Movie", FormMethod.Post, null))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", item.Id)
+                            <input type="submit" value="Delete" />
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>

@@ -1,0 +1,92 @@
+2012-04-15 22:57:29,730 [19] ?.lambda_method(:0) - NHibernate 3.2.0.4000 (3.2.0.4000)
+
+2012-04-15 22:57:29,808 [19] ?.lambda_method(:0) - hibernate-configuration section not found in application configuration file
+
+2012-04-15 22:57:29,809 [19] ?.lambda_method(:0) - Bytecode provider name : lcg
+
+2012-04-15 22:57:29,813 [19] ?.lambda_method(:0) - Using reflection optimizer
+
+2012-04-15 22:57:29,862 [19] ?.lambda_method(:0) - No mapped documents found in assembly: FrameWorker2.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+2012-04-15 22:57:30,485 [19] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-15 22:57:30,584 [19] ?.lambda_method(:0) - Mapping class: MovieDatabase.Domain.Writer -> Writers
+
+2012-04-15 22:57:30,622 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Writer.Movies -> Movies_Writers
+
+2012-04-15 22:57:30,627 [19] ?.lambda_method(:0) - Mapping class: MovieDatabase.Domain.Director -> Directors
+
+2012-04-15 22:57:30,627 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Director.Movies -> Movies_Directors
+
+2012-04-15 22:57:30,628 [19] ?.lambda_method(:0) - Mapping class: MovieDatabase.Domain.Collector -> Collectors
+
+2012-04-15 22:57:30,633 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Collector.Movies -> Movies_Collectors
+
+2012-04-15 22:57:30,633 [19] ?.lambda_method(:0) - Mapping class: MovieDatabase.Domain.Movie -> Movies
+
+2012-04-15 22:57:30,633 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Movie.Collectors -> Movies_Collectors
+
+2012-04-15 22:57:30,634 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Movie.Directors -> Movies_Directors
+
+2012-04-15 22:57:30,634 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Movie.Genres -> Movies_Genres
+
+2012-04-15 22:57:30,634 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Movie.Writers -> Movies_Writers
+
+2012-04-15 22:57:30,634 [19] ?.lambda_method(:0) - Mapping class: MovieDatabase.Domain.Genre -> Genres
+
+2012-04-15 22:57:30,635 [19] ?.lambda_method(:0) - Mapping collection: MovieDatabase.Domain.Genre.Movies -> Movies_Genres
+
+2012-04-15 22:57:30,666 [19] ?.lambda_method(:0) - checking mappings queue
+
+2012-04-15 22:57:30,667 [19] ?.lambda_method(:0) - processing one-to-many association mappings
+
+2012-04-15 22:57:30,679 [19] ?.lambda_method(:0) - processing one-to-one association property references
+
+2012-04-15 22:57:30,679 [19] ?.lambda_method(:0) - processing foreign key constraints
+
+2012-04-15 22:57:30,682 [19] ?.lambda_method(:0) - processing filters (second pass)
+
+2012-04-15 22:57:30,699 [19] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-15 22:57:30,708 [19] ?.lambda_method(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+
+2012-04-15 22:57:30,729 [19] ?.lambda_method(:0) - Using dialect defined converter
+
+2012-04-15 22:57:30,730 [19] ?.lambda_method(:0) - Generate SQL with comments: disabled
+
+2012-04-15 22:57:30,731 [19] ?.lambda_method(:0) - Configuring ConnectionProvider
+
+2012-04-15 22:57:30,733 [19] ?.lambda_method(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+
+2012-04-15 22:57:30,733 [19] ?.lambda_method(:0) - Optimize cache for minimal puts: False
+
+2012-04-15 22:57:30,733 [19] ?.lambda_method(:0) - Connection release mode: auto
+
+2012-04-15 22:57:30,734 [19] ?.lambda_method(:0) - Default batch fetch size: 1
+
+2012-04-15 22:57:30,734 [19] ?.lambda_method(:0) - Statistics: disabled
+
+2012-04-15 22:57:30,734 [19] ?.lambda_method(:0) - Deleted entity synthetic identifier rollback: disabled
+
+2012-04-15 22:57:30,734 [19] ?.lambda_method(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+
+2012-04-15 22:57:30,750 [19] ?.lambda_method(:0) - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+
+2012-04-15 22:57:30,750 [19] ?.lambda_method(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2012-04-15 22:57:30,751 [19] ?.lambda_method(:0) - Order SQL inserts for batching: enabled
+
+2012-04-15 22:57:30,753 [19] ?.lambda_method(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+2012-04-15 22:57:30,753 [19] ?.lambda_method(:0) - Default entity-mode: Poco
+
+2012-04-15 22:57:30,754 [19] ?.lambda_method(:0) - Named query checking : enabled
+
+2012-04-15 22:57:30,770 [19] ?.lambda_method(:0) - building session factory
+
+2012-04-15 22:57:31,153 [19] ?.lambda_method(:0) - no name configured
+
+2012-04-15 22:57:31,941 [19] ?.lambda_method(:0) - select genre0_.Id as Id8_, genre0_.Name as Name8_ from Genres genre0_
+
+2012-04-15 22:57:54,012 [17] ?.lambda_method(:0) - select writer0_.Id as Id0_, writer0_.FirstName as FirstName0_, writer0_.LastName as LastName0_ from Writers writer0_
+
